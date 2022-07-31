@@ -10,4 +10,4 @@ random meal generator?
 
 ✅1차 수정
 
-<img width="684" alt="image" src="https://user-images.githubusercontent.com/102340541/182012220-501ad4fa-fe6c-4916-a59a-c5c17b261610.png">
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/102340541/182012268-39f22eb5-85e1-4e26-b301-6e24006a1f7e.png">
