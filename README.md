@@ -1,5 +1,5 @@
 # esg-recipe
-random meal generator?
+random meal generator
 
 
 검색페이지 틀 만드는 중
