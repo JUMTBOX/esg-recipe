@@ -1,4 +1,5 @@
 const search = document.getElementById("search"),
+  form = document.getElementById("form"),
   submit = document.getElementById("submit"),
   resultHeading = document.getElementById("resultHeading"),
   mealsEl = document.getElementById("mealsEl"),
@@ -43,4 +44,4 @@ const searchMeal = async e => {
   }
 };
 
-submit.addEventListener("click", searchMeal);
+form.addEventListener('submit', searchMeal);
