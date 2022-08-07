@@ -4,19 +4,29 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
  * {
-    font-family: 'EF_MACHO';
     box-sizing: border-box;
+    text-decoration: none;
+    color: #1f2d3d;
+    list-style: none;
     
  }
 
  html {
-     font-family: "Nunito Sans", sans-serif;
      font-size: 16px;
      line-height: 1.5;
      color: #1f2d3d;
  }
  body {
+    font-family: 'EF_MACHO';
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -62,11 +72,22 @@ h1 {
     height: 30px;
 }
 #submit{
+    font-family: 'EF_MACHO';
     width: 100px; /*80px로 하면 버튼내의 텍스트가 밀려서 100px로 수정함. */
     height: 30px;
 }
 
+#resultHeading{
+    font-family: 'ImcreSoojin';
+}
 
+#mealsEl{
+    font-family: 'ImcreSoojin';
+}
+
+#single-mealEl{
+    font-family: 'ImcreSoojin';
+}
 footer {
     display: block;
 
