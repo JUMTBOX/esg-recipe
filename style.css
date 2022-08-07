@@ -16,7 +16,6 @@
     box-sizing: border-box;
     text-decoration: none;
     color: #1f2d3d;
-    list-style: none;
     
  }
 
@@ -92,5 +91,38 @@ footer {
     display: block;
 
 
+}
+
+
+h3 {
+    text-align: center;
+    color: #daf2f5;
+    text-shadow: -3px 0px #1f2d3d,
+        0px 3px #1f2d3d,
+        3px 0px #1f2d3d,
+        0px -3px #1f2d3d;
+    font-size: 30px;
+
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    border-radius: 75px;
+    /* opacity: 100%; */
+}
+
+ul {
+    list-style: none;
+    text-align:left;
+    border: 6px solid #daf2f5;
+    padding: 20px;
+    margin:20px;
+}
+
+.recipe-description {
+    border: 6px solid #daf2f5;
+    padding: 20px;
+    margin: 20px;
 }
 
