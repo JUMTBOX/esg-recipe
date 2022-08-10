@@ -44,4 +44,4 @@ const searchMeal = async e => {
   }
 };
 
-form.addEventListener('submit', searchMeal);
+form.addEventListener("submit", searchMeal);
