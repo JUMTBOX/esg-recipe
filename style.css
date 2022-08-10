@@ -107,15 +107,16 @@ footer {
 
 .meal-info {
     float: left;
-    text-align: center;
+    width: 33%;
+    text-align: justify;
     /* vertical-align: middle; */
-    margin-left: 33px;
+    padding-left: 10px;
 }
 
 
  img{
-    width: 380px;
-    height: 380px;
+    width: 100%;
+    height: 100%;
     border-radius: 75px;
 }
 
@@ -123,6 +124,8 @@ h3 {
     -webkit-text-stroke: 1px #1f2d3d;
     color: #daf2f5;
     font-size: 30px;
+    text-align: center;
+
 }
 
 
