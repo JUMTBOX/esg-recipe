@@ -25,8 +25,6 @@ const searchMeal = async e => {
         .map(
           meal => `
       <div class="${meal.idMeal}">
-      
-        
         <div class="meal-info" data-mealID="${meal.idMeal}">
           <h3>${meal.strMeal}</h3> 
           <img src="${meal.strMealThumb}" alt="${meal.strMeal}"/>

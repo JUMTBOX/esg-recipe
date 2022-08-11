@@ -35,24 +35,31 @@ const addMealToDOM = meal => {
   resultHeading.innerHTML = "";
   mealsEl.innerHTML = "";
   single_mealEl.innerHTML = `
-    <div class="single-meal">
-      <h1>${meal.strMeal}</h1>
-      <div class="single-meal-info">
-        ${meal.strCategory ? `<p>분류 : ${meal.strCategory}</p>` : ""}
-        ${meal.strArea ? `<p>국가 : ${meal.strArea}</p>` : ""}
-      </div>
-      <img src="${meal.strMealThumb}" alt="${meal.strMeal}" />
-
-      <div class="main">
-        <h2>조리방법</h2>
-        <span></span>
-        <ul>
-          ${ingredients.map(ing => `<li>${ing}</li>`).join("")}
-        </ul>
-        <p>${meal.strInstructions}</p>
-
-      </div>
-    </div>
+        <div class="single-meal">
+          <h1>✨${meal.strMeal}✨</h1>
+          <div class="single-meal-info">
+            ${meal.strCategory ? `<p>음식 분류 : ${meal.strCategory}</p>` : ""}
+            ${meal.strArea ? `<p>국가 : ${meal.strArea}</p>` : ""}
+          </div>
+          <div class="recipeImg">
+            <img src="${meal.strMealThumb}" alt="${meal.strMeal}" />
+          </div>
+    
+          <div class="main">
+            
+            <br>
+            <ul>
+            <span><h2>재료</h2></span>
+              ${ingredients.map(ing => `<li>${ing}</li>`).join("")}
+            </ul>
+            <br>
+            <div class="recipe-description">
+            <h2>🟡🟡  레 시 피  🟡🟡</h2>
+            ${meal.strInstructions}
+            </div>
+    
+          </div>
+        </div>
   `;
 };
 

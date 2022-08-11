@@ -15,7 +15,6 @@ const getMealById = async mealID => {
         break;
       }
     }
-
     resultHeading.innerHTML = "";
     mealsEl.innerHTML = "";
     single_mealEl.innerHTML = `
@@ -25,7 +24,11 @@ const getMealById = async mealID => {
             ${meal.strCategory ? `<p>음식 분류 : ${meal.strCategory}</p>` : ""}
             ${meal.strArea ? `<p>국가 : ${meal.strArea}</p>` : ""}
           </div>
-          <img src="${meal.strMealThumb}" alt="${meal.strMeal}" />
+          <div class="recipeImg">
+            <img src="${meal.strMealThumb}" alt="${meal.strMeal}" />
+          </div>
+
+          
     
           <div class="main">
             
