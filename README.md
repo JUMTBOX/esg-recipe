@@ -15,3 +15,7 @@ random meal generator
 
 
 <img width="876" alt="image" src="https://user-images.githubusercontent.com/102340541/183933316-4d1c047a-a1d6-4ca5-bddb-e38cc9d9e3a7.png">
+
+
+
+<img width="751" alt="image" src="https://user-images.githubusercontent.com/102340541/184071036-32626606-6ef0-4e76-bf6c-55891ef17e14.png">
