@@ -64,7 +64,15 @@ h1 {
     background-color: lightblue;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
+}
+
+.popularSearchWord {
+    font-family: 'ImcreSoojin';
+    text-align: center;
+    background-color:#daf2f5;
+    padding: 10px;
+   
 }
 
 #search {
