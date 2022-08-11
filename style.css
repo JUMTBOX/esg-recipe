@@ -143,3 +143,11 @@ ul {
     margin: 20px;
 }
 
+.recipeImg {
+    width: 70%;
+    height: 70%;
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
